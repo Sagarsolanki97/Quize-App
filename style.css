@@ -49,3 +49,17 @@ h2{
 #submit:hover{
     background: #48085f;
 }
+
+.quize-container {
+    margin: 0 auto;
+}
+h2 ,div {
+    text-align: center;
+}
+button#submit {
+    padding: 11px;
+}
+
+.answersheet {
+    padding: 34px;
+}
