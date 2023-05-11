@@ -10,36 +10,39 @@
     <body>
 
         <div class="quize-container">
-            <div class="quize-header">
+            <div class="quize-header" style="display: block;">
             <h2 id="question"> Question </h2>
             <ul>
                 <li>
-                    <input type="radio"id="a"name="answer" >
+                    <input type="radio"id="a" name="options"class="answer"value ="option A" >
                     <label class="selected_option" id="a_text"for="a">question</label>
                 </li>
                 <li>
-                    <input type="radio"id="b"name="answer" >
+                    <input type="radio"id="b"name="options"class="answer" > 
                     <label class="selected_option"id="b_text"for="b">question</label>
                 </li>
                 <li>
-                    <input type="radio"id="c"name="answer" >
+                    <input type="radio"id="c"name="options"class="answer" >
                     <label class="selected_option" id="c_text"for="c">question</label>
                 </li>
                 <li>
-                    <input type="radio"id="d"name="answer" >
+                    <input type="radio"id="d"name="options"class="answer" >
                     <label class="selected_option"id="d_text"for="d">question</label>
                 </li>
             </ul>
             <button id="submit">Submit</button>
-            <div class="buttons">
+            <div class="buttons" style="display: none;">
                 <button id="previous">Previous</button>
                 <button id="next">Next</button>
 
             </div>
+            <span id="Message"></span>
+        </div>
+        <div class="answersheet" style="display: none;">
+            <h2>Answersheet</h2>
+            <p class="Answers"></p>
         </div>
         </div>
-
-
 
         <script src="js.js"></script>
     </body>
